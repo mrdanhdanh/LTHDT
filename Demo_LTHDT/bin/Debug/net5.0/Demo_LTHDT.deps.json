@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Demo_LTHDT/1.0.0": {
+        "runtime": {
+          "Demo_LTHDT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demo_LTHDT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
