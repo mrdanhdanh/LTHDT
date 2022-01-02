@@ -4,22 +4,25 @@ using System.Text;
 
 namespace CongTy
 {
-    class NVSX
+    class NVVP
     {
         private string manv;
         private string hoten;
         private string diachi;
-        private int slsanpham;
-        public NVSX()
+        private double heso;
+        private int phucap;
+
+        public NVVP()
         {
 
         }
-        public NVSX(string manv, string hoten, string diachi, int slsanpham)
+        public NVVP(string manv, string hoten, string diachi, double heso, int phucap )
         {
             this.manv = manv;
             this.hoten = hoten;
             this.diachi = diachi;
-            this.slsanpham = slsanpham;
+            this.heso = heso;
+            this.phucap = phucap;
         }
         public void Nhap()
         {
@@ -29,17 +32,20 @@ namespace CongTy
             this.hoten = Console.ReadLine();
             Console.WriteLine("Nhap dia chi Nhan Vien:");
             this.diachi = Console.ReadLine();
-            Console.WriteLine("Nhap so luong san pham:");
-            this.slsanpham = int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap he so:");
+            this.heso = double.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap phu cap:");
+            this.phucap = int.Parse(Console.ReadLine());
 
         }
         public void Xuat()
         {
-            Console.WriteLine($"{this.manv}     {this.hoten}     {this.diachi}    {this.slsanpham}");
+            Console.WriteLine($"{this.manv}     {this.hoten}     {this.diachi}    {this.heso}     {this.phucap}");
         }
-        public int TinhLuong()
+
+        public double TinhLuong()
         {
-            return this.slsanpham * 10;
+            return this.heso * 10 + this.phucap;
         }
     }
 }
