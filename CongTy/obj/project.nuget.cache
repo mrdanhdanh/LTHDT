@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QUJBOaOPcs2cNTLv06HrIcRDNhT/dJrMp49QJJ5X8xl/BL4IQ+6t5mQn1I0JkfOicBlFUoFDod9DElJ8Yx81Rg==",
+  "success": true,
+  "projectFilePath": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\LTHDT\\CongTy\\CongTy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

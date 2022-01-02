@@ -1,0 +1,13 @@
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\bin\Debug\netcoreapp3.1\CongTy.exe
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\bin\Debug\netcoreapp3.1\CongTy.deps.json
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\bin\Debug\netcoreapp3.1\CongTy.runtimeconfig.json
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\bin\Debug\netcoreapp3.1\CongTy.runtimeconfig.dev.json
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\bin\Debug\netcoreapp3.1\CongTy.dll
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\bin\Debug\netcoreapp3.1\CongTy.pdb
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\obj\Debug\netcoreapp3.1\CongTy.csprojAssemblyReference.cache
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\obj\Debug\netcoreapp3.1\CongTy.AssemblyInfoInputs.cache
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\obj\Debug\netcoreapp3.1\CongTy.AssemblyInfo.cs
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\obj\Debug\netcoreapp3.1\CongTy.csproj.CoreCompileInputs.cache
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\obj\Debug\netcoreapp3.1\CongTy.dll
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\obj\Debug\netcoreapp3.1\CongTy.pdb
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\CongTy\obj\Debug\netcoreapp3.1\CongTy.genruntimeconfig.cache
