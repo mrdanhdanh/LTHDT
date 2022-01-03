@@ -15,6 +15,7 @@ namespace CongTy
         }
         public NVVP(string manv, string hoten, string diachi, double heso, int phucap ) : base(manv, hoten, diachi)
         {
+            //this.manv = manv là không được vì this.manv là private của class NHANVIEN, ta phải dùng base để truy cập hàm tạo của class NHANVIEN. Để giải uyết thì ta cho nó thành protected, dễ truy xuất dữ liệu hơn
             this.heso = heso;
             this.phucap = phucap;
         }
