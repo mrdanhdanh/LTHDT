@@ -1,0 +1,13 @@
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\bin\Debug\netcoreapp3.1\MatPhang.exe
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\bin\Debug\netcoreapp3.1\MatPhang.deps.json
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\bin\Debug\netcoreapp3.1\MatPhang.runtimeconfig.json
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\bin\Debug\netcoreapp3.1\MatPhang.runtimeconfig.dev.json
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\bin\Debug\netcoreapp3.1\MatPhang.dll
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\bin\Debug\netcoreapp3.1\MatPhang.pdb
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\obj\Debug\netcoreapp3.1\MatPhang.csprojAssemblyReference.cache
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\obj\Debug\netcoreapp3.1\MatPhang.AssemblyInfoInputs.cache
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\obj\Debug\netcoreapp3.1\MatPhang.AssemblyInfo.cs
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\obj\Debug\netcoreapp3.1\MatPhang.csproj.CoreCompileInputs.cache
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\obj\Debug\netcoreapp3.1\MatPhang.dll
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\obj\Debug\netcoreapp3.1\MatPhang.pdb
+D:\Bai tap HK 1\Clip dạy\LTHDT\code\LTHDT\MatPhang\obj\Debug\netcoreapp3.1\MatPhang.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gIFixjoGEy1eWExfxyrBKFEDLHP08PWHvRMmoMAHve5bl+2XSCWOluSo7S2iVCbaf5ob7cd8Y+wQLbfwojNuCQ==",
+  "success": true,
+  "projectFilePath": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\LTHDT\\MatPhang\\MatPhang.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
