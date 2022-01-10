@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HuguahhjHDdKi9sSKXhojsQsD5zboM5K0lV6wl7OO7j5pnVzOqbIzduLS1DOA7FlCVYRkGUPvht3hrfMG6tDoQ==",
+  "dgSpecHash": "fTZRQJFJvf6N8yG9WilC/YWh1C8yRmFq5/s95lUIBwvZ930diE/+pK81lnZ+/m3S+JsU4+s/yAsHAhs0Q4Vawg==",
   "success": true,
-  "projectFilePath": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\TamGiacLTHDT\\TamGiacLTHDT.csproj",
+  "projectFilePath": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\LTHDT\\TamGiacLTHDT\\TamGiacLTHDT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
   ],

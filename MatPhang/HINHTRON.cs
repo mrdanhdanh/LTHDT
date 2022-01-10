@@ -20,16 +20,16 @@ namespace MatPhang
             this.R = r;
         }
 
-        public void Nhap(string ghichu)
+        public override void Nhap(string ghichu)
         {
-            Console.WriteLine(ghichu);
-            base.Nhap();
+            
+            base.Nhap(ghichu);
             this.I = new DIEM();
             this.I.Nhap();
             Console.WriteLine("Nhap ban kinh R: ");
             this.R = double.Parse(Console.ReadLine());
         }
-        public double ChuVi()
+        public override double ChuVi()
         {
             return Math.PI * this.R;
         }

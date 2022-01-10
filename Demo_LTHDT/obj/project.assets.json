@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\Demo_LTHDT\\Demo_LTHDT.csproj",
+      "projectUniqueName": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\LTHDT\\Demo_LTHDT\\Demo_LTHDT.csproj",
       "projectName": "Demo_LTHDT",
-      "projectPath": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\Demo_LTHDT\\Demo_LTHDT.csproj",
+      "projectPath": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\LTHDT\\Demo_LTHDT\\Demo_LTHDT.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\Demo_LTHDT\\obj\\",
+      "outputPath": "D:\\Bai tap HK 1\\Clip dạy\\LTHDT\\code\\LTHDT\\Demo_LTHDT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

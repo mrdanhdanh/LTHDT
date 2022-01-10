@@ -6,8 +6,8 @@ namespace Demo_LTHDT
 {
     class PhanSo
     {
-        public int TuSo;
-        public int MauSo;
+        private int TuSo;
+        private int MauSo;
 
         public PhanSo() //Dùng để tạo giá trị mặc định cho đôi tượng
         {

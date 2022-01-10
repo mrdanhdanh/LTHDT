@@ -22,14 +22,19 @@ namespace MatPhang
             this.tenhinh = tenhinh;
             this.mausac = mausac;
         }
-        public void Nhap()
+        public virtual void Nhap(string ghichu)
         {
+            Console.WriteLine(ghichu);
             Console.WriteLine("Nhap ma hinh: ");
             this.ma = Console.ReadLine();
             Console.WriteLine("Nhap ten hinh:");
             this.tenhinh = Console.ReadLine();
             Console.WriteLine("Nhap màu sac: ");
             this.mausac = Console.ReadLine();
+        }
+        public virtual double ChuVi()
+        {
+            return 0;
         }
     }
 }
