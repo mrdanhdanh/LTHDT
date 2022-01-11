@@ -20,7 +20,7 @@ namespace CongTy
             this.diachi = diachi;
         }
 
-        public void Nhap()
+        public virtual void Nhap()
         {
             Console.WriteLine("Nhap ma Nhan Vien:");
             this.manv = Console.ReadLine();
@@ -33,6 +33,10 @@ namespace CongTy
         public void Xuat()
         {
             Console.Write($"{this.manv}     {this.hoten}     {this.diachi}");
+        }
+        public virtual double TinhLuong()
+        {
+            return 0;
         }
     }
 }

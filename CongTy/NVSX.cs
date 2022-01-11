@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CongTy
 {
-    class NVSX
+    class NVSX : NHANVIEN
     {
         private string manv;
         private string hoten;
@@ -21,14 +21,11 @@ namespace CongTy
             this.diachi = diachi;
             this.slsanpham = slsanpham;
         }
-        public void Nhap()
+        public override void Nhap()
         {
-            Console.WriteLine("Nhap ma Nhan Vien:");
-            this.manv = Console.ReadLine();
-            Console.WriteLine("Nhap ten Nhan Vien:");
-            this.hoten = Console.ReadLine();
-            Console.WriteLine("Nhap dia chi Nhan Vien:");
-            this.diachi = Console.ReadLine();
+            Console.WriteLine("Nhap thong tin NV San Xuat: ");
+            base.Nhap();
+
             Console.WriteLine("Nhap so luong san pham:");
             this.slsanpham = int.Parse(Console.ReadLine());
 
@@ -37,7 +34,7 @@ namespace CongTy
         {
             Console.WriteLine($"{this.manv}     {this.hoten}     {this.diachi}    {this.slsanpham}");
         }
-        public int TinhLuong()
+        public override double TinhLuong()
         {
             return this.slsanpham * 10;
         }

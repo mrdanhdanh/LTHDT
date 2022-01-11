@@ -19,9 +19,11 @@ namespace CongTy
             this.heso = heso;
             this.phucap = phucap;
         }
-        public void Nhap()
+        public override void Nhap()
         {
+            Console.WriteLine("Nhap thong tin NV Van Phong: ");
             base.Nhap();
+
             Console.WriteLine("Nhap he so:");
             this.heso = double.Parse(Console.ReadLine());
             Console.WriteLine("Nhap phu cap:");
@@ -34,7 +36,7 @@ namespace CongTy
             Console.WriteLine($"    {this.heso}     {this.phucap}");
         }
 
-        public double TinhLuong()
+        public override double TinhLuong()
         {
             return this.heso * 10 + this.phucap;
         }
