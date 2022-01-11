@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MatPhang
 {
-    class HINHTRON : HINH
+    class HINHTRON : HINH, TinhToan
     {
         private DIEM I { get; set; }
         private double R { get; set; }
@@ -30,6 +30,10 @@ namespace MatPhang
             this.R = double.Parse(Console.ReadLine());
         }
         public override double ChuVi()
+        {
+            return Math.PI * this.R;
+        }
+        public double ChuVi2()
         {
             return Math.PI * this.R;
         }

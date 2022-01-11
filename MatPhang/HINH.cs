@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MatPhang
 {
-    class HINH
+    abstract class HINH : TinhToan
     {
         private string ma;
         private string tenhinh;
@@ -32,9 +32,10 @@ namespace MatPhang
             Console.WriteLine("Nhap màu sac: ");
             this.mausac = Console.ReadLine();
         }
-        public virtual double ChuVi()
-        {
-            return 0;
-        }
+        public abstract double ChuVi();
+    }
+    interface TinhToan
+    {
+        double ChuVi();
     }
 }
