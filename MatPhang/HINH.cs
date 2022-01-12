@@ -9,7 +9,7 @@ namespace MatPhang
         private string ma;
         private string tenhinh;
         private string mausac;
-
+        public LOAIHINH lohi;
         public HINH()
         {
 
@@ -22,7 +22,7 @@ namespace MatPhang
             this.tenhinh = tenhinh;
             this.mausac = mausac;
         }
-        public virtual void Nhap(string ghichu)
+        public virtual void Nhap(string ghichu, LOAIHINH lohi)
         {
             Console.WriteLine(ghichu);
             Console.WriteLine("Nhap ma hinh: ");
@@ -31,6 +31,7 @@ namespace MatPhang
             this.tenhinh = Console.ReadLine();
             Console.WriteLine("Nhap màu sac: ");
             this.mausac = Console.ReadLine();
+
         }
         public abstract double ChuVi();
     }

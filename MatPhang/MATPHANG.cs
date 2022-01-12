@@ -27,14 +27,16 @@ namespace MatPhang
                 case 1:
                     {
                         HINH h = new HINHTRON();
-                        h.Nhap("Nhap thong tin cho hinh tron: ");
+                        LOAIHINH lohi = LOAIHINH.HinhTron;
+                        h.Nhap("Nhap thong tin cho hinh tron: ", lohi);
                         this.dshinh.Add(h);
                         break;
                     }
                 case 2:
                     {
                         HINH h = new HINHCHUNHAT();
-                        h.Nhap("Nhap thong tin cho hinh chu nhat: ");
+                        LOAIHINH lohi = LOAIHINH.HinhChuNhat;
+                        h.Nhap("Nhap thong tin cho hinh chu nhat: ", lohi);
                         this.dshinh.Add(h);
                         break;
                     }
@@ -54,6 +56,7 @@ namespace MatPhang
             for (int i=0; i<this.dshinh.Count; i++)
             {
                 P += this.dshinh[i].ChuVi();
+                string l = this.dshinh[1].lohi.ToString();
             }
             return P;
         }

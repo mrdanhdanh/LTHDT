@@ -19,10 +19,10 @@ namespace MatPhang
             this.Dai = d;
             this.Rong = r;
         }
-        public override void Nhap(string ghichu)
+        public override void Nhap(string ghichu, LOAIHINH lohi)
         {
 
-            base.Nhap(ghichu);
+            base.Nhap(ghichu, lohi);
             this.A = new DIEM();
             this.A.Nhap();
             Console.WriteLine("Nhap chieu dai: ");

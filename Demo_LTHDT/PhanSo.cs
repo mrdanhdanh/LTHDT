@@ -8,19 +8,66 @@ namespace Demo_LTHDT
     {
         private int TuSo;
         private int MauSo;
+        public string Mau_So
+        {
+            get
+            {
+                return this.MauSo.ToString();
+            }
+            set
+            {
+
+                bool isNum = int.TryParse(value, out int n);
+                if (isNum == false)
+                {
+                    throw new Exception("Mau so phai la so");
+                }
+                else
+                {
+                    int nvalue = int.Parse(value);
+                    if (nvalue != 0)
+                    {
+                        this.MauSo = nvalue;
+                    }
+                    else
+                    {
+                        throw new Exception("Mau so phai khac 0");
+                    }
+                }
+            }
+        }
 
         public PhanSo() //Dùng để tạo giá trị mặc định cho đôi tượng
         {
             this.TuSo = 0;
             this.MauSo = 1;
         }
-        public PhanSo(int a, int b) {
-            while (b==0) {
-                Console.WriteLine("Mau so khong phu hop, vui long nhap lai");
-                b = int.Parse(Console.ReadLine());
+        public PhanSo(int a, string b) {
+            try
+            {
+                this.TuSo = a;
+                this.Mau_So = b;
             }
-            this.TuSo = a;
-            this.MauSo = b;
+            catch (Exception e)
+            {
+                Console.WriteLine("Co loi: " + e.Message);
+                NhapEr();
+            }
+            
+
+        }
+        private void NhapEr()
+        {
+            try
+            {
+                Console.WriteLine("Vui long nhap lai mau so:");
+                this.Mau_So = Console.ReadLine();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Co loi: " + e.Message);
+                NhapEr();
+            }
 
         }
         public void Nhap(string ghichu)

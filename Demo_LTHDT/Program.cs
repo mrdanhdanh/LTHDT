@@ -7,7 +7,7 @@ namespace Demo_LTHDT
 
         static void Main(string[] args)
         {
-            PhanSo A = new PhanSo(1,0);
+            PhanSo A = new PhanSo(1,"0");
             A.Xuat();
 
             Console.ReadLine();
